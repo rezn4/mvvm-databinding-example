@@ -10,8 +10,6 @@ import org.koin.androidx.viewmodel.ext.android.viewModel
 import kotlinx.android.synthetic.main.activity_list.*
 
 class FakeApiActivity: BaseActivity<ActivityListBinding>() {
-
-
     override fun getActivityLayout(): Int {
         return R.layout.activity_list
     }
